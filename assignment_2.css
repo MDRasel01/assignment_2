@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full_websote_layout{
+    width: 1140px;
+margin: 0px 116px;
+}
+/* header section start*/
+
+
+
+
+.logo_menu_part{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 2px solid #edecec;
+}
+
+
+.menu_part{
+    padding: 10px 10px;
+
+}
+
+
+
+.menu_part ul li{
+list-style: none;
+display: inline-block;
+padding: 0px 20px;
+}
+
+.menu_part ul li a{
+text-decoration: none;
+font-family: helvetica;
+color: black;
+font-size: 13px;
+}
+
+/* header section end*/
+
+/* section 2 start*/
+
+
+
+.container_1{
+  text-align: center;
+
+}
+
+
+.sec2_text_part h1{
+    padding: 23px 0px 0px 0px;
+    font-size: 33px;
+    padding: 6px 0px;
+      font-family: helvetica;
+
+}
+
+.sec2_text_part h2{
+    font-size: 33px;
+      font-family: helvetica;
+
+}
+
+.sec2_text_part span{
+    font-size: 33px;
+      font-family: helvetica;
+      font-weight: bold;
+}
+
+.sec2_text_part p{
+
+    padding: 6px 156px;
+    font-family: arial;
+}
+
+.sec2_text_part img{
+    padding: 30px 0px;
+}
+/* section 2 end*/
+
+/* section 3 start*/
+
+.section_3{
+    padding: 38px 0px;
+
+}
+
+
+.both_side{
+display: flex;
+}
+
+.section3_left{
+    text-align: right;
+    flex-basis: 50%;
+    margin-right: 16px;
+
+}
+
+.section3_left h1{
+    font-size: 32px;
+    font-family: arial;
+}
+
+.section3_left p{
+    font-size: 13px;
+}
+
+.section3_right h1{
+    font-family: arial;
+    font-size: 31px;
+
+}
+
+/* section 3 end*/
+
+
+/* section 4 start*/
+
+
+
+.item_box{
+    display: flex;
+    margin: 0px 74px;    
+}
+
+.item{
+    background-color: blue;
+    padding: 19px 43px;
+    margin-right: 29px;
+
+}
+
+.item h4{
+    font-size: 18px;
+    font-family: arial;
+    padding: 11px 0px 0px 0px;
+}
+
+.item p{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.item img{
+    width: 100px;
+    height: 172px;
+    margin: 0px 52px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/* section 4 end*/
+
+.footer_section{
+    background-color: rgb(183, 183, 204);
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 43px;
+}
+
+
+    .footer_section b{
+        color: white;
+padding: 0px 1px;
+    }
+
+.footer_section p{
+    color: rgb(137, 121, 121);
+}
